@@ -25,6 +25,7 @@ import { filter, get, head, pipe, reverse } from 'lodash/fp';
 import { CatalogProcessor } from './types';
 
 const ALLOWED_LOCATION_TYPES = [
+  'url',
   'azure/api',
   'bitbucket/api',
   'github',
